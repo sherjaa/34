@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+    margin-top: 25vh;
+}
+.box{
+    margin: 30px;
+}
+.box:hover h1{
+    color: rgb(0, 0, 0);
+    background-color: cornsilk;
+    transition: 1.3s;
+    border: 3px solid red;
+}
+.uz, .ru, .en{
+    margin: 45vh 30px;
+}
+.link{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin:0 30%;
+    padding: 13% 3px;
+    text-align: center;
+}
